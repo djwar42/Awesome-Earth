@@ -8,11 +8,12 @@ export default function Footer() {
         <div className='flex items-center flex-col gap-2 z-10'>
           <GlobeIcon className='h-6 w-6' />
           <span>Awesome Earth</span>
-          <br />
-          Website by{' '}
-          <a target='_BLANK' href='https://github.com/djwar42'>
-            Daniel Joel Warner
-          </a>
+          <p>
+            Website by{' '}
+            <a target='_BLANK' href='https://github.com/djwar42'>
+              Daniel Joel Warner
+            </a>
+          </p>
         </div>
       </div>
       <div className='absolute bottom-0 right-0 w-[200px] h-[200px] rounded-full bg-gradient-to-r from-[#1E824C] to-[#3CB371] opacity-20 -z-10' />
