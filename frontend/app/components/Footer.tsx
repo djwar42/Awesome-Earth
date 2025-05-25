@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className='bg-[#1E824C] text-white py-6 px-6 relative'>
       <div className='container mx-auto flex items-center justify-center'>
-        <div className='flex items-center gap-2 z-10'>
+        <div className='flex items-center flex-col gap-2 z-10'>
           <GlobeIcon className='h-6 w-6' />
           <span>Awesome Earth</span>
           <br />
